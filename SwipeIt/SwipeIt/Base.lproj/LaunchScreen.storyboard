@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skylar Spears (srs5sb)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIQ-qj-1LI">
+                                <rect key="frame" x="71" y="274" width="177" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="XvF-KT-y0s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cute" translatesAutoresizingMaskIntoConstraints="NO" id="hXl-4c-9hy">
+                                <rect key="frame" x="61" y="157" width="198" height="109"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Katharine Xie (kx3jj)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0P-aN-FpJ">
+                                <rect key="frame" x="79" y="320" width="161" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="I98-xI-wdj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwipeIt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJ5-H8-NcZ">
+                                <rect key="frame" x="50" y="43" width="218" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="hqe-ai-c3K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="57"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KJ5-H8-NcZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="34" id="1Gq-o8-z8a"/>
+                            <constraint firstItem="KJ5-H8-NcZ" firstAttribute="centerX" secondItem="hXl-4c-9hy" secondAttribute="centerX" constant="-1" id="7zN-Ch-aON"/>
+                            <constraint firstItem="KJ5-H8-NcZ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="23" id="9se-5l-5jT"/>
+                            <constraint firstItem="eIQ-qj-1LI" firstAttribute="top" secondItem="hXl-4c-9hy" secondAttribute="bottom" constant="8" symbolic="YES" id="JOa-Qb-a9w"/>
+                            <constraint firstItem="d0P-aN-FpJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="63" id="P1P-4R-cvf"/>
+                            <constraint firstItem="hXl-4c-9hy" firstAttribute="centerX" secondItem="eIQ-qj-1LI" secondAttribute="centerX" id="U8S-6o-kVV"/>
+                            <constraint firstItem="hXl-4c-9hy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="45" id="cDq-mo-tfT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="d0P-aN-FpJ" secondAttribute="bottom" constant="214" id="gEo-X6-ycW"/>
+                            <constraint firstItem="d0P-aN-FpJ" firstAttribute="top" secondItem="eIQ-qj-1LI" secondAttribute="bottom" constant="8" symbolic="YES" id="jR4-V0-ptg"/>
+                            <constraint firstItem="hXl-4c-9hy" firstAttribute="top" secondItem="KJ5-H8-NcZ" secondAttribute="bottom" constant="8" symbolic="YES" id="oKH-Px-tjn"/>
+                            <constraint firstItem="eIQ-qj-1LI" firstAttribute="centerX" secondItem="d0P-aN-FpJ" secondAttribute="centerX" id="rtM-t2-9kW"/>
+                            <constraint firstItem="KJ5-H8-NcZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-1" id="sZO-Lp-8dv"/>
+                            <constraint firstItem="eIQ-qj-1LI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="55" id="v3V-hr-Rfk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cute" width="112" height="112"/>
+    </resources>
+</document>
